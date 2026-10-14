@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[INSERT YOUR NAME] — AI Engineering Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation Bar -->
+    <header id="header">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <i class="fa-solid fa-brain"></i> <span>[YOUR NAME]</span>
+            </a>
+            <nav class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#reflections" class="nav-link">Reflections</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <button id="themeToggle" aria-label="Toggle Dark/Light Mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle Navigation Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- A. Home Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <i class="fa-solid fa-terminal"></i> Undergraduate AI Researcher & Developer
+                    </div>
+                    <h1>Hi, I'm <span class="highlight">[INSERT YOUR NAME]</span></h1>
+                    <h2>Bachelor of Science in Artificial Intelligence Engineering</h2>
+                    <p class="hero-year">[INSERT YEAR LEVEL] • [INSERT INSTITUTION/UNIVERSITY NAME]</p>
+                    <p class="hero-description">
+                        [Write a short introduction about yourself, your passion for technology, and what drives your journey in AI engineering here.]
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#portfolio" class="btn btn-primary">Explore Portfolio <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#about" class="btn btn-secondary">About Me</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="profile-card-glow">
+                        <div class="profile-img-container">
+                            <img src="assets/profile.jpg" alt="Profile Photo Placeholder" id="profileImg">
+                            <div class="profile-badge-overlay">
+                                <i class="fa-solid fa-microchip"></i> AI Eng.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- B. About Me Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>About Me</h2>
+                    <p>My academic background, core interests, and goals in Artificial Intelligence.</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="card-icon"><i class="fa-solid fa-user-graduate"></i></div>
+                        <h3>Personal Background</h3>
+                        <p class="placeholder-text">[Write your background here — e.g., where you started, your academic journey, and what motivated you to pursue engineering.]</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon"><i class="fa-solid fa-atom"></i></div>
+                        <h3>Academic Interests</h3>
+                        <p class="placeholder-text">[Write your academic interests here — e.g., Machine Learning, Natural Language Processing, Computer Vision, or Robotics.]</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon"><i class="fa-solid fa-bullseye"></i></div>
+                        <h3>Why AI Engineering?</h3>
+                        <p class="placeholder-text">[Explain why you chose AI Engineering and how you hope to impact the future through intelligent systems.]</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon"><i class="fa-solid fa-code"></i></div>
+                        <h3>Skills Developing</h3>
+                        <p class="placeholder-text">[List programming languages, math foundations, frameworks, or tools you are currently learning and mastering.]</p>
+                    </div>
+                    <div class="about-card full-width">
+                        <div class="card-icon"><i class="fa-solid fa-compass"></i></div>
+                        <h3>Personal & Professional Goals</h3>
+                        <p class="placeholder-text">[Describe your short-term and long-term goals for your college career and future professional endeavors.]</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- C. Portfolio Section -->
+        <section id="portfolio" class="section alt-bg">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Portfolio & Projects</h2>
+                    <p>A collection of academic works, labs, and collaborative AI projects.</p>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="project-grid" id="projectGrid">
+                    <!-- Sample Card 1 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/project1.jpg" alt="Project preview">
+                            <div class="project-badge">Machine Learning</div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-meta">[Course Code / Subject] • [Semester/Year]</span>
+                            <h3 class="project-title">[Project Title 1: e.g., Predictive Housing Price Model]</h3>
+                            <p class="project-desc">[Short description written by you detailing the problem statement, approach, and outcomes.]</p>
+                            <div class="tech-tags">
+                                <span>Python</span>
+                                <span>Scikit-Learn</span>
+                                <span>Pandas</span>
+                            </div>
+                            <div class="project-footer">
+                                <span class="skills-used"><strong>Skills:</strong> [Data Preprocessing, Evaluation]</span>
+                                <div class="project-links">
+                                    <a href="#" target="_blank" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                                    <a href="#" target="_blank" aria-label="Project Demo/Report"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Sample Card 2 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/project1.jpg" alt="Project preview">
+                            <div class="project-badge">Computer Vision</div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-meta">[Course Code / Subject] • [Semester/Year]</span>
+                            <h3 class="project-title">[Project Title 2: e.g., Handwritten Digit Classifier]</h3>
+                            <p class="project-desc">[Short description written by you explaining the neural network architecture and dataset used.]</p>
+                            <div class="tech-tags">
+                                <span>Python</span>
+                                <span>PyTorch</span>
+                                <span>OpenCV</span>
+                            </div>
+                            <div class="project-footer">
+                                <span class="skills-used"><strong>Skills:</strong> [Neural Networks, Image Processing]</span>
+                                <div class="project-links">
+                                    <a href="#" target="_blank" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                                    <a href="#" target="_blank" aria-label="Project Demo/Report"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Sample Card 3 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/project1.jpg" alt="Project preview">
+                            <div class="project-badge">Data Structures</div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-meta">[Course Code / Subject] • [Semester/Year]</span>
+                            <h3 class="project-title">[Project Title 3: e.g., A* Pathfinding Visualizer]</h3>
+                            <p class="project-desc">[Short description written by you detailing algorithm implementation and interactive controls.]</p>
+                            <div class="tech-tags">
+                                <span>Python</span>
+                                <span>Pygame</span>
+                                <span>Algorithms</span>
+                            </div>
+                            <div class="project-footer">
+                                <span class="skills-used"><strong>Skills:</strong> [Graph Search, Heuristics]</span>
+                                <div class="project-links">
+                                    <a href="#" target="_blank" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                                    <a href="#" target="_blank" aria-label="Project Demo/Report"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Empty State Message (Hidden by default, shown via JS if 0 projects) -->
+                <div id="projectEmptyState" class="empty-state" style="display: none;">
+                    <i class="fa-solid fa-folder-open"></i>
+                    <h3>No Projects Added Yet</h3>
+                    <p>Check back soon as I document my ongoing academic projects and lab outputs!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- D. Reflections / Blog Section -->
+        <section id="reflections" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>College Reflections & Learnings</h2>
+                    <p>Documenting key takeaways from coursework, seminars, and technical explorations.</p>
+                </div>
+
+                <div class="reflections-feed" id="reflectionsFeed">
+                    <!-- Example Entry 1 -->
+                    <article class="reflection-card">
+                        <div class="reflection-header-meta">
+                            <span class="reflection-date"><i class="fa-regular fa-calendar"></i> [Month DD, YYYY]</span>
+                            <span class="reflection-subject">[Subject, Activity, or Experience]</span>
+                        </div>
+                        <h3 class="reflection-title">[Entry Title 1: e.g., Reflections on Ethics in Machine Learning]</h3>
+                        <div class="reflection-body">
+                            <p class="placeholder-text">[Write your reflection here — describe what you learned, challenges encountered, or insights gained from this activity.]</p>
+                            <p class="placeholder-text">[Describe what you learned from this activity and how it shapes your perspective on responsible AI development.]</p>
+                        </div>
+                    </article>
+
+                    <!-- Example Entry 2 -->
+                    <article class="reflection-card">
+                        <div class="reflection-header-meta">
+                            <span class="reflection-date"><i class="fa-regular fa-calendar"></i> [Month DD, YYYY]</span>
+                            <span class="reflection-subject">[Subject, Activity, or Experience]</span>
+                        </div>
+                        <h3 class="reflection-title">[Entry Title 2: e.g., Overcoming Challenges in Neural Network Optimization]</h3>
+                        <div class="reflection-body">
+                            <p class="placeholder-text">[Write your reflection here about debugging gradient descent or tuning hyperparameters.]</p>
+                        </div>
+                    </article>
+
+                    <!-- Example Entry 3 -->
+                    <article class="reflection-card">
+                        <div class="reflection-header-meta">
+                            <span class="reflection-date"><i class="fa-regular fa-calendar"></i> [Month DD, YYYY]</span>
+                            <span class="reflection-subject">[Subject, Activity, or Experience]</span>
+                        </div>
+                        <h3 class="reflection-title">[Entry Title 3: e.g., Collaborative Group Project Takeaways]</h3>
+                        <div class="reflection-body">
+                            <p class="placeholder-text">[Write your reflection here on teamwork, version control workflows, and project management in AI engineering.]</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- E. Contact Section -->
+        <section id="contact" class="section alt-bg">
+            <div class="container contact-container">
+                <div class="section-header">
+                    <h2>Get in Touch</h2>
+                    <p>I am open to academic collaborations, mentorships, and networking opportunities.</p>
+                </div>
+                <div class="contact-box">
+                    <p class="contact-invite">
+                        If you would like to connect or discuss AI research and projects, feel free to reach out through any of the channels below:
+                    </p>
+                    <div class="contact-links-grid">
+                        <a href="mailto:[INSERT YOUR EMAIL]" class="contact-item">
+                            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="contact-details">
+                                <span class="label">Email</span>
+                                <span class="value">[INSERT YOUR EMAIL]</span>
+                            </div>
+                        </a>
+                        <a href="https://linkedin.com/in/[INSERT YOUR LINKEDIN]" target="_blank" rel="noopener" class="contact-item">
+                            <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                            <div class="contact-details">
+                                <span class="label">LinkedIn</span>
+                                <span class="value">linkedin.com/in/[USERNAME]</span>
+                            </div>
+                        </a>
+                        <a href="https://github.com/[INSERT YOUR GITHUB]" target="_blank" rel="noopener" class="contact-item">
+                            <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+                            <div class="contact-details">
+                                <span class="label">GitHub</span>
+                                <span class="value">github.com/[USERNAME]</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-info">
+                <p><strong>[INSERT YOUR NAME]</strong></p>
+                <p>Bachelor of Science in Artificial Intelligence Engineering</p>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; <span id="currentYear">2026</span> [INSERT YOUR NAME]. All rights reserved.</p>
+            </div>
+            <button id="backToTop" aria-label="Back to top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
